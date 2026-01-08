@@ -97,6 +97,38 @@
   color: {{ var.defaultColor.frameBack }};
   color: var(--frameBack);
 }
+/* 표 */
+.pmargin > table {
+  margin: 0 auto;
+}
+.bonmun table {
+  border-collapse: collapse;
+  border-radius: 7px;
+  box-shadow: 0px 2px 5px #0004;
+  overflow: hidden;
+  font-family: {{ var.font.code }};
+}
+.bonmun thead {
+  background-color: #555;
+  color: white;
+}
+.bonmun tbody > tr:nth-child(2n) {
+  background-color: {{ var.defaultColor.listBack }};
+  background-color: var(--listBack);
+}
+.bonmun th ,
+.bonmun td {
+  padding: 2px 8px;
+}
+.bonmun th:not(:last-child) ,
+.bonmun td:not(:last-child) {
+  border-right: 1px solid {{ var.defaultColor.borderCol }};
+  border-right: 1px solid var(--borderCol);
+}
+.bonmun tr:not(:last-child) {
+  border-bottom: 1px dotted {{ var.defaultColor.borderCol }};
+  border-bottom: 1px dotted var(--borderCol);
+}
 /* 목록 */
 .bonmun li {
   position: relative;

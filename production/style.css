@@ -1825,6 +1825,38 @@ body .container_postbtn {
   color: #111144;
   color: var(--frameBack);
 }
+/* 표 */
+.pmargin > table {
+  margin: 0 auto;
+}
+.bonmun table {
+  border-collapse: collapse;
+  border-radius: 7px;
+  box-shadow: 0px 2px 5px #0004;
+  overflow: hidden;
+  font-family: 'D2Coding', consolas, monospace;
+}
+.bonmun thead {
+  background-color: #555;
+  color: white;
+}
+.bonmun tbody > tr:nth-child(2n) {
+  background-color: #F4F4F4;
+  background-color: var(--listBack);
+}
+.bonmun th ,
+.bonmun td {
+  padding: 2px 8px;
+}
+.bonmun th:not(:last-child) ,
+.bonmun td:not(:last-child) {
+  border-right: 1px solid #DDDDDD;
+  border-right: 1px solid var(--borderCol);
+}
+.bonmun tr:not(:last-child) {
+  border-bottom: 1px dotted #DDDDDD;
+  border-bottom: 1px dotted var(--borderCol);
+}
 /* 목록 */
 .bonmun li {
   position: relative;
@@ -2905,7 +2937,7 @@ figure.fileblock .image, #tt-body-page figure.fileblock .image {/* 첨부파일 
   display: none !important;
 }
 
-#skin-version:not(.v25-11-20-093915)::after {
+#skin-version:not(.v26-01-08-104134)::after {
   color: #eb0;
-  content: "v25-11-20-093915";
+  content: "v26-01-08-104134";
 }
