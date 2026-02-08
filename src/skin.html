@@ -10,9 +10,15 @@
 <!-- 사용자 지정 색 -->
 <style>{% include "style/color-scheme/color-scheme.css" %}</style>
 
-{% for headitem in headitems %}
-{{ headitem }}
-{% endfor %}
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <script>
 //{% include "skin-comps/init-html.js" %}

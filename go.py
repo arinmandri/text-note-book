@@ -37,7 +37,6 @@ def main():
         result = template.render({
             'settings' : settings['skin'],
             'var'      : settings['var'],
-            'headitems': settings['headitems'],
             'fonts'    : settings['fonts'],
             'meta'     : settings['meta'],
         })
