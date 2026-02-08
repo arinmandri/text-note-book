@@ -332,3 +332,12 @@ li > dl > dt ,
  83% { color: #d0d; } 
  100% { color: #e44; }
 }
+
+/* rebellion */
+
+#tt-body-page .bonmun blockquote[data-ke-style="style1"] ,
+.bonmun blockquote ,
+.bonmun blockquote p {
+  font-size: inherit;
+  color: inherit;
+}

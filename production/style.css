@@ -2061,6 +2061,15 @@ li > dl > dt ,
  100% { color: #e44; }
 }
 
+/* rebellion */
+
+#tt-body-page .bonmun blockquote[data-ke-style="style1"] ,
+.bonmun blockquote ,
+.bonmun blockquote p {
+  font-size: inherit;
+  color: inherit;
+}
+
 /**#### 댓글 */
 /*
 댓글영역 div#commentSec
