@@ -1833,7 +1833,8 @@ body .container_postbtn {
 .bonmun table {
   border-collapse: collapse;
   border-radius: 7px;
-  box-shadow: 0px 2px 5px #0004;
+  box-shadow: 0px 0px 0px 2px #DDDDDD;
+  box-shadow: 0px 0px 0px 2px var(--borderCol);
   overflow: hidden;
   font-family: 'D2Coding', consolas, monospace;
 }
@@ -2947,7 +2948,7 @@ figure.fileblock .image, #tt-body-page figure.fileblock .image {/* 첨부파일 
   display: none !important;
 }
 
-#skin-version:not(.v26-03-05-170344)::after {
+#skin-version:not(.v26-03-05-171613)::after {
   color: #eb0;
-  content: "v26-03-05-170344";
+  content: "v26-03-05-171613";
 }
