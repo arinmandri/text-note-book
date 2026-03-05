@@ -99,7 +99,8 @@
 }
 /* 표 */
 .pmargin > table {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .bonmun table {
   border-collapse: collapse;
