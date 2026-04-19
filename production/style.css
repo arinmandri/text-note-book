@@ -937,14 +937,20 @@ body#tt-body-index .home-none-1 {/* 홈화면에서 숨기기 옵션 */
 }
 
   .homecover.menubar {
-  padding: 0 2.5%;
   border-bottom: 6px solid #111144;
   border-bottom: 6px solid var(--frameBack);
 }
 .homecover.menubar * {
   display: inline-block;
 }
-
+.homecover.menubar li::before {
+  content: '◆';
+  margin: 0 6px;
+  font-size: 60%;
+  vertical-align: center;
+  color: #DDDDDD;
+  color: var(--borderCol);
+}
 .homecover.menubar > nav a {
   padding: 4px 8px;
   font-family: 'Jua', sans-serif;
@@ -2948,7 +2954,7 @@ figure.fileblock .image, #tt-body-page figure.fileblock .image {/* 첨부파일 
   display: none !important;
 }
 
-#skin-version:not(.v26-03-30-162904)::after {
+#skin-version:not(.v26-04-19-104900)::after {
   color: #eb0;
-  content: "v26-03-30-162904";
+  content: "v26-04-19-104900";
 }

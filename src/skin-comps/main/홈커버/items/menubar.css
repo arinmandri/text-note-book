@@ -1,12 +1,18 @@
 .homecover.menubar {
-  padding: 0 2.5%;
   border-bottom: 6px solid {{ var.defaultColor.frameBack }};
   border-bottom: 6px solid var(--frameBack);
 }
 .homecover.menubar * {
   display: inline-block;
 }
-
+.homecover.menubar li::before {
+  content: '◆';
+  margin: 0 6px;
+  font-size: 60%;
+  vertical-align: center;
+  color: {{ var.defaultColor.borderCol }};
+  color: var(--borderCol);
+}
 .homecover.menubar > nav a {
   padding: 4px 8px;
   font-family: {{ var.font.sticker }};
