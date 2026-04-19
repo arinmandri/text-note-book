@@ -194,9 +194,8 @@ body:not(#tt-body-page) .onlyOnPage-page {
   text-shadow:
     1px 1px 0px #FFFFFF;
   text-shadow:
-    1px 1px 0   var(--backCol),
-    2px 2px 0   var(--backCol),
-    0   0   5px var(--backCol);
+    1px 0px 0   var(--backCol),
+    0px 1px 0   var(--backCol);
 }
 .pageTitle {
   margin: 80px auto;
@@ -2954,7 +2953,7 @@ figure.fileblock .image, #tt-body-page figure.fileblock .image {/* 첨부파일 
   display: none !important;
 }
 
-#skin-version:not(.v26-04-19-104900)::after {
+#skin-version:not(.v26-04-19-105253)::after {
   color: #eb0;
-  content: "v26-04-19-104900";
+  content: "v26-04-19-105253";
 }

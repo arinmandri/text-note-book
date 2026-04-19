@@ -65,7 +65,6 @@ body:not(#tt-body-page) .onlyOnPage-page {
   text-shadow:
     1px 1px 0px {{ var.defaultColor.backCol }};
   text-shadow:
-    1px 1px 0   var(--backCol),
-    2px 2px 0   var(--backCol),
-    0   0   5px var(--backCol);
+    1px 0px 0   var(--backCol),
+    0px 1px 0   var(--backCol);
 }
